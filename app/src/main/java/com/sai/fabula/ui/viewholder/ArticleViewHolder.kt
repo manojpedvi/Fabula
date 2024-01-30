@@ -24,7 +24,7 @@ class ArticleViewHolder(private val binding: ItemArticleBinding, private val pub
             error(R.drawable.ic_broken_image)
         }
         binding.articleItemLayout.setOnClickListener {
-            publishSubject.onNext(article.url)
+            publishSubject.onNext(article.url.toString())
         }
     }
 }
