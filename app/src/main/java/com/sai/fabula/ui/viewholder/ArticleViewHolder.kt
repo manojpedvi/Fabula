@@ -1,7 +1,7 @@
 package com.sai.fabula.ui.viewholder
 
 import androidx.recyclerview.widget.RecyclerView
-import coil.api.load
+import coil.load
 import com.sai.fabula.R
 import com.sai.fabula.database.model.Article
 import com.sai.fabula.databinding.ItemArticleBinding
